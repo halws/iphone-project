@@ -1,0 +1,13 @@
+#car {
+    position: relative;
+    & #bg {
+        background: url(../../images/car.png) repeat;
+        // position: fixed;
+        width: 100%;
+        height: 300%;
+        top: 0;
+        left: 0;
+        
+    }
+    
+}

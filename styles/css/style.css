@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 11.25px;
+  color: #67676d;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  font-size: 12px;
+}
+
+#content {
+  position: relative;
+}
+
+#landscape {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+#landscape figure {
+  margin-left: -200px;
+  color: #fff;
+  max-width: 50%;
+}
+
+#iphone {
+  z-index: 1001;
+  position: absolute;
+  right: 100px;
+  top: 40vh;
+  height: auto;
+  max-width: 40%;
+}
+#iphone img {
+  height: auto;
+  max-width: 100%;
+}
+
+#boxes {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#boxes h2 {
+  margin-bottom: 35px;
+}
+#boxes .boxes-wrapper {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#boxes .boxes-wrapper .col {
+  display: flex;
+  justify-content: center;
+  height: 280px;
+  border: 1px solid black;
+}
+#boxes .boxes-wrapper .col .wrapper {
+  padding-top: 10%;
+  width: 90%;
+  text-align: left;
+}
+
+#car {
+  position: relative;
+}
+#car #bg {
+  background: url(../../images/car.png) repeat;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+#landscape {
+    height: $vievport-height;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    & figure {
+        margin-left: -200px;
+        color: $white;
+        max-width: 50%;
+    }
+    
+}
+ #iphone{
+ 	z-index: $z-index;
+    	position: absolute;
+    	right: 100px;
+    	top: 40vh;
+    	height: auto;
+    	max-width: 40%;
+    	& img{
+    		height: auto;
+    		max-width: 100%;
+    	}
+    }

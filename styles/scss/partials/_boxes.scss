@@ -1,0 +1,25 @@
+#boxes{
+	padding-top: $gap-length;
+	padding-bottom: $gap-length;
+	
+	& h2{
+		margin-bottom: $gap-length/2;
+	}
+	& .boxes-wrapper{
+		margin-top: $gap-length;
+		margin-bottom:$gap-length ;
+		& .col{
+			display: flex;
+			justify-content: center;
+
+			height: $box-height;
+			border: 1px solid black;
+			& .wrapper{
+				padding-top: 10%;
+				width: 90%;
+				text-align: left;
+				// border: 1px solid black;
+			}
+		}
+	}
+}
