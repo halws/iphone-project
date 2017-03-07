@@ -36,3 +36,7 @@ $(window).scroll(function() {
 //         });
 //     }
 // });
+// $(function () {
+  
+
+// })
