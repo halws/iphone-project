@@ -1,0 +1,7 @@
+#reasons{
+	padding-top: $gap-length;
+	padding-bottom: $gap-length;
+	& h2{ 
+		margin-bottom: $gap-length/2;
+	}
+}

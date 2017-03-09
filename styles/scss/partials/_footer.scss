@@ -1,0 +1,15 @@
+footer{
+	padding-top: $gap-length;
+	padding-bottom: $gap-length/4;
+	& .col> .container {
+
+		& h3{ 
+		margin-bottom:$gap-length/4	}
+		& p{
+			margin-bottom: $gap-length/4;
+		}
+	}
+	& ul{
+		list-style-type: none;	}
+
+}

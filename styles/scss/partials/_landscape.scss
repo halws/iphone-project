@@ -11,9 +11,7 @@
     align-items: center;
     justify-content: center;
     & figure {
-        margin-left: -200px;
-        color: $white;
-        max-width: 50%;
+        @extend %figureParalax
     }
     
 }

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+#landscape figure, #samochod figure {
+  margin-left: -200px;
+  color: #fff;
+  max-width: 50%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,11 +60,6 @@ a {
   align-items: center;
   justify-content: center;
 }
-#landscape figure {
-  margin-left: -200px;
-  color: #fff;
-  max-width: 50%;
-}
 
 #iphone {
   z-index: 1001;
@@ -95,6 +96,11 @@ a {
   width: 90%;
   text-align: left;
 }
+@media (max-width: 768px) {
+  #boxes .boxes-wrapper .row {
+    justify-content: center;
+  }
+}
 
 #samochod {
   height: 100vh;
@@ -108,6 +114,39 @@ a {
   position: relative;
   align-items: center;
   justify-content: center;
+}
+
+#reasons {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#reasons h2 {
+  margin-bottom: 35px;
+}
+
+#buy-it {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#buy-it .col .inner {
+  margin: 35px 0;
+}
+#buy-it .col .inner h2 {
+  margin-bottom: 17.5px;
+}
+
+footer {
+  padding-top: 70px;
+  padding-bottom: 17.5px;
+}
+footer .col > .container h3 {
+  margin-bottom: 17.5px;
+}
+footer .col > .container p {
+  margin-bottom: 17.5px;
+}
+footer ul {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+#buy-it{
+	padding-top: $gap-length;
+	padding-bottom: $gap-length;
+	& .col .inner{
+		margin: $gap-length/2 0;
+		& h2{
+			margin-bottom:$gap-length/4 ;
+		}
+	}
+}
