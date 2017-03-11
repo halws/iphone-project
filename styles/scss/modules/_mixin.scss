@@ -3,3 +3,21 @@
 	@content;
 	}
 }
+@mixin button($backgroundColor,$color,$width) {
+	display: block;
+	width: $width;
+	text-align: center;
+	text-decoration: none;
+	padding:10px 0;
+	background-color: $backgroundColor;
+	color: $color;
+	border-radius: 4px;
+	&:hover{
+		background-color: darken($backgroundColor, 10%);
+	}
+
+}
+// @mixin onHover($backgroundColor) {
+// 	background-color: darken($backgroundColor, 10%);
+	
+// }

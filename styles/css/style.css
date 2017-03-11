@@ -23,6 +23,7 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 35px;
   font-size: 45px;
 }
 
@@ -31,8 +32,9 @@ h3 {
 }
 
 h4 {
-  font-size: 11.25px;
-  color: #67676d;
+  margin-bottom: 17.5px;
+  font-size: 18px;
+  color: #F6F7FA;
 }
 
 p {
@@ -78,10 +80,8 @@ a {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-#boxes h2 {
-  margin-bottom: 35px;
-}
 #boxes .boxes-wrapper {
+  color: #fff;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -89,7 +89,6 @@ a {
   display: flex;
   justify-content: center;
   height: 280px;
-  border: 1px solid black;
 }
 #boxes .boxes-wrapper .col .wrapper {
   padding-top: 10%;
@@ -100,6 +99,53 @@ a {
   #boxes .boxes-wrapper .row {
     justify-content: center;
   }
+}
+
+#boxes .container h3 {
+  color: #fff;
+}
+#boxes .container a {
+  text-decoration: none;
+}
+#boxes .container a:visited {
+  color: #fff;
+}
+
+.block-1 {
+  background-color: #FB989D;
+}
+
+.block-2 {
+  background-color: #615F7D;
+}
+
+.block-3 {
+  background-image: url(../../images/box3.png);
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .block-3 {
+    background-position: center right;
+  }
+}
+@media (max-width: 1200px) {
+  .block-3 {
+    background-position: center right;
+  }
+}
+
+.block-4 {
+  background-image: url(../../images/box4_1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.block-5 {
+  background-color: #82CA9C;
+}
+
+.grey p {
+  color: #8D8D92;
 }
 
 #samochod {
@@ -119,14 +165,25 @@ a {
 #reasons {
   padding-top: 70px;
   padding-bottom: 70px;
+  color: #fff;
+  background-color: #82CA9C;
 }
 #reasons h2 {
   margin-bottom: 35px;
 }
+#reasons h4 {
+  color: #fff;
+}
 
 #buy-it {
+  background-color: #F6F7FA;
   padding-top: 70px;
   padding-bottom: 70px;
+}
+#buy-it .wrapper {
+  background-color: #fff;
+  padding: 30px 0 30px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #buy-it .col .inner {
   margin: 35px 0;
@@ -135,7 +192,36 @@ a {
   margin-bottom: 17.5px;
 }
 
+#buy-it .pop-btn {
+  display: block;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  background-color: #FB989D;
+  color: #fff;
+  border-radius: 4px;
+}
+#buy-it .pop-btn:hover {
+  background-color: #f9676e;
+}
+#buy-it .buy-btn {
+  display: block;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  background-color: #46BA6D;
+  color: #fff;
+  border-radius: 4px;
+}
+#buy-it .buy-btn:hover {
+  background-color: #389557;
+}
+
 footer {
+  background-color: #192431;
+  color: #fff;
   padding-top: 70px;
   padding-bottom: 17.5px;
 }

@@ -1,7 +1,12 @@
-#reasons{
-	padding-top: $gap-length;
-	padding-bottom: $gap-length;
-	& h2{ 
-		margin-bottom: $gap-length/2;
-	}
+#reasons {
+    padding-top: $gap-length;
+    padding-bottom: $gap-length;
+    color: $white;
+    background-color: $reasons-color;
+    & h2 {
+        margin-bottom: $gap-length/2;
+    }
+    & h4 {
+        color: $white;
+    }
 }

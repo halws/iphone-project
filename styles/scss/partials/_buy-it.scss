@@ -1,10 +1,31 @@
+#buy-it {
+    background-color: $grey-lighten;
+    padding-top: $gap-length;
+    padding-bottom: $gap-length;
+    & .wrapper {
+        background-color: $white;
+        padding: 30px 0 30px 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    & .col {
+        & .inner {
+            margin: $gap-length/2 0;
+            & h2 {
+                margin-bottom: $gap-length/4;
+            }
+        }
+    }
+}
 #buy-it{
-	padding-top: $gap-length;
-	padding-bottom: $gap-length;
-	& .col .inner{
-		margin: $gap-length/2 0;
-		& h2{
-			margin-bottom:$gap-length/4 ;
-		}
+
+	& .pop-btn{
+		
+		@include button($rose,$white,20%);
+		
+		
+	}
+	& .buy-btn{
+		@include button($button-green,$white,20%);
 	}
 }
+

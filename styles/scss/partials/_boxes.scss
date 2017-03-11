@@ -1,17 +1,14 @@
 #boxes {
     padding-top: $gap-length;
     padding-bottom: $gap-length;
-    & h2 {
-        margin-bottom: $gap-length/2;
-    }
     & .boxes-wrapper {
+        color: $white;
         margin-top: $gap-length;
         margin-bottom: $gap-length;
         & .col {
             display: flex;
             justify-content: center;
             height: $box-height;
-            border: 1px solid black;
             & .wrapper {
                 padding-top: 10%;
                 width: 90%;
@@ -24,4 +21,59 @@
             }
         }
     }
+}
+
+#boxes {
+    & .container {
+        
+        & h3 {
+            color: $white;
+        }
+        
+
+        & a {
+            text-decoration: none;
+            &:visited {
+                color: $white;
+            }
+        }
+    }
+}
+
+.block-1 {
+    background-color: $rose;
+}
+
+.block-2 {
+    background-color: $purple;
+}
+
+.block-3 {
+    background-image: url(../../images/box3.png);
+    background-size: cover;
+    @include media("(min-width:992px )") {
+        background-position: center right;
+    }
+    ;
+    @include media("(max-width:1200px )") {
+        background-position: center right;
+    }
+    ;
+}
+
+.block-4 {
+    background-image: url(../../images/box4_1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.block-5 {
+    background-color: $green-light;
+}
+.grey {
+	& p{
+
+		color:$grey;
+	}
+	
 }

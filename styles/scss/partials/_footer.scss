@@ -1,4 +1,6 @@
 footer{
+	background-color: $footer-dark;
+	color: $white;
 	padding-top: $gap-length;
 	padding-bottom: $gap-length/4;
 	& .col> .container {
