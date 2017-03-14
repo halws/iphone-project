@@ -4,7 +4,7 @@
     padding-bottom: $gap-length;
     & .wrapper {
         background-color: $white;
-        padding: 30px 0 30px 20px;
+        padding: 10px 0 10px 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     & .col {
@@ -18,14 +18,18 @@
 }
 #buy-it{
 
-	& .pop-btn{
-		
-		@include button($rose,$white,20%);
-		
-		
-	}
-	& .buy-btn{
-		@include button($button-green,$white,20%);
-	}
+	.inner{
+
+        & .pop-btn{
+        position: absolute;
+        @include button($rose,$white,20%);
+        
+        
+    }
+    & .buy-btn{
+        position: absolute;
+        @include button($button-green,$white,20%);
+    }
+    }
 }
 
