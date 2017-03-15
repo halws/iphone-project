@@ -75,10 +75,18 @@ a {
   height: auto;
   max-width: 100%;
 }
+@media (max-width: 840px) {
+  #iphone {
+    display: none;
+  }
+}
 
 #boxes {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+#boxes h4 {
+  color: #8D8D92;
 }
 #boxes .boxes-wrapper {
   color: #fff;
